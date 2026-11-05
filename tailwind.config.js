@@ -1,0 +1,87 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ivory: {
+          DEFAULT: '#FAF8F5',
+          50: '#FDFCFB',
+          100: '#FAF8F5',
+          200: '#F3EFEA',
+          300: '#E8E1D7',
+        },
+        rose: {
+          DEFAULT: '#C58F91',
+          50: '#FAF5F5',
+          100: '#F5EBEB',
+          200: '#ECCFD0',
+          300: '#E0B2B4',
+          400: '#D39E9F',
+          500: '#C58F91',
+          600: '#B27678',
+          700: '#945C5E',
+          800: '#754546',
+          950: '#432223',
+        },
+        sage: {
+          DEFAULT: '#A8B5A0',
+          50: '#F5F7F4',
+          100: '#EFF3EE',
+          200: '#DCE4D8',
+          300: '#C7D3C1',
+          400: '#B6C4AE',
+          500: '#A8B5A0',
+          600: '#8E9C86',
+          700: '#73806C',
+          800: '#586352',
+        },
+        champagne: {
+          DEFAULT: '#D8BD8A',
+          50: '#FCF9F3',
+          100: '#FAF5EB',
+          200: '#F2E6CE',
+          300: '#E8D5AE',
+          400: '#E0C79C',
+          500: '#D8BD8A',
+          600: '#C4A56E',
+          700: '#A68853',
+          800: '#836B3E',
+        },
+        charcoal: {
+          DEFAULT: '#393634',
+          50: '#F7F6F5',
+          100: '#EAE8E6',
+          200: '#D2CFCC',
+          300: '#AAA5A1',
+          400: '#7C7672',
+          500: '#55504C',
+          600: '#393634',
+          700: '#2C2A28',
+          800: '#201E1D',
+          900: '#141312',
+        },
+      },
+      fontFamily: {
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        display: ['Playfair Display', 'Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+      },
+      boxShadow: {
+        'soft': '0 4px 20px -2px rgba(57, 54, 52, 0.05), 0 2px 6px -1px rgba(57, 54, 52, 0.03)',
+        'soft-md': '0 10px 25px -3px rgba(57, 54, 52, 0.07), 0 4px 10px -2px rgba(57, 54, 52, 0.04)',
+        'soft-lg': '0 20px 35px -4px rgba(57, 54, 52, 0.09), 0 8px 16px -3px rgba(57, 54, 52, 0.05)',
+        'rose': '0 10px 25px -4px rgba(197, 143, 145, 0.3)',
+      },
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
+        '4xl': '2rem',
+      }
+    },
+  },
+  plugins: [],
+}
